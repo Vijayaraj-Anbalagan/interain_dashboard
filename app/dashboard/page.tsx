@@ -1,10 +1,9 @@
 "use client"
 import React from 'react';
+import { SidebarDemo } from '@/components/Side';
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-row h-screen w-screen poppins-medium">
-        Home
-    </div>
+    <SidebarDemo />
   );
 }
 
